@@ -1,0 +1,34 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@sindresorhus/is':
+        specifier: ^5.1.0
+        version: 5.1.0
+      zod:
+        specifier: ^3.22.4
+        version: 3.22.4
+
+packages:
+
+  '@sindresorhus/is@5.1.0':
+    resolution:
+      integrity: sha512-yk5T3MBtKdZdABSAQUwLKXmMiLJMPBfCXGHjcpA/4OlDMuOdWcXdwB2bZHizVwrKlcZZ8I/0bWqX04L6GEww==
+    engines:
+      node: '>=14.16'
+
+  zod@3.22.4:
+    resolution:
+      integrity: sha512-iC+8Io04ljLI4XImKMFdhCFEDRr8YFMGxZW/1FVXXnSHsNhyC1PIYO9qZRVHpOFJGOIHpPJLigf2KNOKpZFg==
+
+snapshots:
+
+  '@sindresorhus/is@5.1.0': {}
+
+  zod@3.22.4: {}
