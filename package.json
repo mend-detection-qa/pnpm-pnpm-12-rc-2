@@ -1,0 +1,13 @@
+{
+  "name": "checksum-signing",
+  "version": "1.0.0",
+  "description": "pnpm 12 RC2 checksum-signing probe for Mend SCA",
+  "private": true,
+  "dependencies": {
+    "zod": "^3.22.4",
+    "@sindresorhus/is": "^5.1.0"
+  },
+  "pnpm": {
+    "trustPublicHoisting": true
+  }
+}
