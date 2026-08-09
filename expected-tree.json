@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-08-09T15:02:32Z",
+  "packages": {
+    "@sindresorhus/is": {
+      "dependencies": [],
+      "extras_activating_this": [],
+      "group": "main",
+      "hashes": [
+        "sha512:yk5T3MBtKdZdABSAQUwLKXmMiLJMPBfCXGHjcpA/4OlDMuOdWcXdwB2bZHizVwrKlcZZ8I/0bWqX04L6GEww=="
+      ],
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry": "https://registry.npmjs.org"
+      },
+      "version": "5.1.0"
+    },
+    "zod": {
+      "dependencies": [],
+      "extras_activating_this": [],
+      "group": "main",
+      "hashes": [
+        "sha512:iC+8Io04ljLI4XImKMFdhCFEDRr8YFMGxZW/1FVXXnSHsNhyC1PIYO9qZRVHpOFJGOIHpPJLigf2KNOKpZFg=="
+      ],
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry": "https://registry.npmjs.org"
+      },
+      "version": "3.22.4"
+    }
+  },
+  "pm": "pnpm",
+  "pm_version_tested": "9",
+  "pm_version_under_test": "12.0.0-rc.2",
+  "root": {
+    "dependencies": [
+      "@sindresorhus/is",
+      "zod"
+    ],
+    "name": "checksum-signing",
+    "version": "1.0.0"
+  },
+  "schema_version": "1.2",
+  "source_file": "pnpm-lock.yaml",
+  "warnings": []
+}
