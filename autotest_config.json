@@ -36,8 +36,8 @@
       "_comment_expected_dependencies_number": "Optional. Expected number of dependencies with comparison operator. Operators: gt (>), gte (>=), lt (<), lte (<=), eq (==). If not provided, this check will not be performed.",
       "direct_dependencies_names_list": {
         "eq": [
-          "@sindresorhus/is",
-          "zod"
+          "@sindresorhus/is-5.1.0.tgz",
+          "zod-3.22.4.tgz"
         ]
       },
       "transitive_dependencies_names_list": {
